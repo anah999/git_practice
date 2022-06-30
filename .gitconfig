@@ -1,0 +1,5 @@
+[user]
+	name = Hanss4869
+	email = nurulhanamuslih@gmail.com
+[core]
+	excludesfile = %HOMEPATH%.gitignore_global

@@ -1,0 +1,3 @@
+2022-06-28 16:21:58.637 +08:00 [INF] ReadLine overridden with 'Microsoft.PowerShell.EditorServices.Services.PowerShell.Console.PsrlReadLine'
+2022-06-28 16:22:11.211 +08:00 [WRN] No ConfigurationItems have been defined, configuration won't surface any configuration from the client!
+2022-06-28 16:22:11.308 +08:00 [ERR] Could not resolve Script Analyzer settings path due to null or empty workspaceRootPath.

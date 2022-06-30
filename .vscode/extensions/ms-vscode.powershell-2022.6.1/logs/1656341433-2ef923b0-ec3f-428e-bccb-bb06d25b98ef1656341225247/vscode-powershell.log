@@ -1,0 +1,19 @@
+27/06/2022 10:50:33 pm [NORMAL] -     PowerShell executable: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe
+27/06/2022 10:50:33 pm [NORMAL] - Language server starting --
+27/06/2022 10:50:33 pm [NORMAL] -     PowerShell Editor Services args: Import-Module 'c:\Users\nurul\.vscode\extensions\ms-vscode.powershell-2022.6.1\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2022.6.1' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\nurul\.vscode\extensions\ms-vscode.powershell-2022.6.1\modules' -EnableConsoleRepl -StartupBanner '=====> PowerShell Integrated Console v2022.6.1 <=====
+' -LogLevel 'Normal' -LogPath 'c:\Users\nurul\.vscode\extensions\ms-vscode.powershell-2022.6.1\logs\1656341433-2ef923b0-ec3f-428e-bccb-bb06d25b98ef1656341225247\EditorServices.log' -SessionDetailsPath 'c:\Users\nurul\.vscode\extensions\ms-vscode.powershell-2022.6.1\sessions\PSES-VSCode-3300-106873' -FeatureFlags @() 
+27/06/2022 10:50:33 pm [NORMAL] - powershell.exe started.
+27/06/2022 10:50:33 pm [NORMAL] -     PowerShell args: -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\nurul\.vscode\extensions\ms-vscode.powershell-2022.6.1\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2022.6.1' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\nurul\.vscode\extensions\ms-vscode.powershell-2022.6.1\modules' -EnableConsoleRepl -StartupBanner '=====> PowerShell Integrated Console v2022.6.1 <=====
+' -LogLevel 'Normal' -LogPath 'c:\Users\nurul\.vscode\extensions\ms-vscode.powershell-2022.6.1\logs\1656341433-2ef923b0-ec3f-428e-bccb-bb06d25b98ef1656341225247\EditorServices.log' -SessionDetailsPath 'c:\Users\nurul\.vscode\extensions\ms-vscode.powershell-2022.6.1\sessions\PSES-VSCode-3300-106873' -FeatureFlags @() 
+27/06/2022 10:50:33 pm [NORMAL] - Waiting for session file
+27/06/2022 10:50:37 pm [NORMAL] - Session file found
+27/06/2022 10:50:37 pm [NORMAL] - Registering terminal close callback
+27/06/2022 10:50:37 pm [NORMAL] - Registering terminal PID log callback
+27/06/2022 10:50:37 pm [NORMAL] - Language server started.
+27/06/2022 10:50:37 pm [NORMAL] - powershell.exe PID: 17960
+27/06/2022 10:50:37 pm [NORMAL] - {"status":"started","languageServiceTransport":"NamedPipe","languageServicePipeName":"\\\\.\\pipe\\PSES_ckrjfivi.ene","debugServiceTransport":"NamedPipe","debugServicePipeName":"\\\\.\\pipe\\PSES_p5ph3xbm.1eo"}
+27/06/2022 10:50:37 pm [NORMAL] - Connecting to language service on pipe \\.\pipe\PSES_ckrjfivi.ene...
+27/06/2022 10:50:37 pm [NORMAL] - Language service connected.
+27/06/2022 10:51:10 pm [WARNING] - Invalid Version: null
+27/06/2022 11:16:45 pm [NORMAL] - powershell.exe terminated or terminal UI was closed
+27/06/2022 11:16:45 pm [NORMAL] - Shutting down language client...

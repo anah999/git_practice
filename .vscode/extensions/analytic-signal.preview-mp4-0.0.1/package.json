@@ -1,0 +1,117 @@
+{
+	"name": "preview-mp4",
+	"displayName": "MPEG-4 Preview",
+	"description": "Preview MPEG-4 (.mp4) video files in VSCode.",
+	"publisher": "analytic-signal",
+	"icon": "images/icon.png",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"MPEG-4",
+		"data science"
+	],
+	"activationEvents": [
+		"onCustomEditor:analyticsignal.preview-mp4"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"customEditors": [
+			{
+				"viewType": "analyticsignal.preview-mp4",
+				"displayName": "MPEG-4 Preview",
+				"selector": [
+					{
+						"filenamePattern": "*.{mp4}"
+					}
+				]
+			}
+		],
+		"commands": [
+			{
+				"command": "preview-mp4.zoomIn",
+				"title": "Zoom In",
+				"category": "MPEG-4 Preview"
+			},
+			{
+				"command": "preview-mp4.zoomOut",
+				"title": "Zoom Out",
+				"category": "MPEG-4 Preview"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "preview-mp4.zoomIn",
+					"when": "preview-mp4Focus",
+					"group": "1_preview-mp4"
+				},
+				{
+					"command": "preview-mp4.zoomOut",
+					"when": "preview-mp4Focus",
+					"group": "1_preview-mp4"
+				}
+			]
+		},
+		"configuration": {
+			"title": "MPEG-4 Preview",
+			"properties": {
+				"MPEG-4 Preview.autoplay": {
+					"type": "boolean",
+					"default": true,
+					"description": "Sets whether the video should start playing as soon as it is loaded."
+				},
+				"MPEG-4 Preview.controls": {
+					"type": "boolean",
+					"default": true,
+					"description": "Sets whether the video should display controls like play/pause etc."
+				},
+				"MPEG-4 Preview.loop": {
+					"type": "boolean",
+					"default": true,
+					"description": "Sets whether the video should start over again when finished."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"@types/vscode": "^1.46.0",
+		"@typescript-eslint/eslint-plugin": "^3.8.0",
+		"@typescript-eslint/parser": "^3.8.0",
+		"eslint": "^7.6.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.0.1",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.4.0"
+	},
+	"__metadata": {
+		"id": "e875d04f-b443-438c-bfad-1af12b37df32",
+		"publisherId": "5fe0df1e-37b9-41fa-99df-82fdd7c74a58",
+		"publisherDisplayName": "Analytic Signal Limited",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1656226976752
+	}
+}
