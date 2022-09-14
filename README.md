@@ -1,4 +1,6 @@
 # git_practice
-ya but i still clueless about this thing
+ya 
 this is markdown md
 hm..
+i should add some project in here
+and try do branching
